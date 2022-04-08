@@ -9,7 +9,7 @@ const IndexPage: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Redux Toolkit</title>
+        <title>bugatti chiron</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Landing />
