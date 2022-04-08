@@ -2,12 +2,14 @@ import React from "react";
 
 function HeroBox() {
   return (
-    <div className="w-full flex flex-row items-center">
-      <div className="w-1/2">
+    <div className="w-full flex lg:flex-row flex-col-reverse items-center lg:px-[0] px-[30px]">
+      <div className="lg:w-1/2 w-full">
         <img src="/images/hero-bugatti.webp" />
       </div>
-      <div className="w-1/2 flex flex-col gap-6 pr-[100px]">
-        <h1 className="text-[22px] font-medium">BREAKING NEW DIMENSIONS</h1>
+      <div className="lg:w-1/2 w-full flex flex-col lg:mt-[0] mt-[50px] gap-6 lg:pr-[100px] sm:text-[16px] text-[14px]">
+        <h1 className="sm:text-[22px] text-[18px] font-medium">
+          BREAKING NEW DIMENSIONS
+        </h1>
         <p className="text-gray-500">
           The CHIRON is the fastest, most powerful, and exclusive production
           super sports car in BUGATTI’s history. Its sophisticated design,

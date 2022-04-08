@@ -36,15 +36,15 @@ const imagesBugatti = [
 function Centermain() {
   return (
     <div className="w-full flex flex-col bg-[#f5f5f5] ">
-      <div className="w-full flex flex-row items-center">
-        <div className="w-1/2 ">
+      <div className="w-full flex lg:flex-row flex-col items-center">
+        <div className="lg:w-1/2 w-full ">
           <img src="/images/ltBugatti.webp" alt="lt" />
         </div>
-        <div className="w-1/2 px-[50px] flex flex-col gap-6 ">
-          <h1 className="text-[24px] font-medium">
+        <div className="lg:w-1/2 w-full px-[50px] py-[50px] flex flex-col gap-6 ">
+          <h1 className="sm:text-[24px] text-[18px] font-medium">
             TRUE LUXURY: AN INNER VALUE
           </h1>
-          <p className="text-gray-500 font-light">
+          <p className="text-gray-500 font-light sm:text-[16px] text-[14px]">
             Mirroring the CHIRON´s exterior signature line, the LED illumination
             in the distinctive C-line form separates the two seats, and reveals
             the stunning functional beauty of the interior. The cockpit layout

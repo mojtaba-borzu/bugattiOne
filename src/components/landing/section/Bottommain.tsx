@@ -180,10 +180,12 @@ function Bottommain() {
   }, [showTab]);
   return (
     <div className="w-full flex flex-col items-center">
-      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container">
-        <h1 className="text-[50px] font-medium">DISCOVER YOUR INSPIRATION</h1>
-        <div className="w-full flex flex-row justify-between text-gray-500 font-light">
-          <p className="pr-[50px]">
+      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container xl:px-[0] px-[30px]">
+        <h1 className="lg:text-[50px] md:text-[40px] sm:text-[30px] text-[20px] font-medium">
+          DISCOVER YOUR INSPIRATION
+        </h1>
+        <div className="w-full flex xl:flex-row flex-col xl:gap-0 gap-4  justify-between text-gray-500 font-light sm:text-[16px] text-[14px]">
+          <p className="xl:pr-[50px]">
             Each CHIRON is one of a kind; an exquisite masterpiece of
             breathtaking power and unrivaled beauty. To build each customer’s
             unique work of art, BUGATTI designers collaborate closely with the
@@ -202,7 +204,7 @@ function Bottommain() {
           </p>
         </div>
       </div>
-      <div className="w-full h-[100px] flex flex-row justify-center gap-10 items-center">
+      <div className="w-full md:h-[100px] h-[200px]  flex md:flex-row flex-wrap justify-center gap-6  items-center">
         {imgTab.map((item) => (
           <div
             onClick={() => {
@@ -211,7 +213,7 @@ function Bottommain() {
             key={item.id}
             className={`rounded-full flex items-center justify-center duration-300 cursor-pointer ${
               item.id == showTab.id
-                ? "w-[80px] h-[80px] px-[5px] bg-gray-200"
+                ? "sm:w-[80px] sm:h-[80px] w-[40px] h-[40px] sm:px-[5px] bg-gray-200"
                 : "w-[40px] h-[40px]"
             }`}
           >
@@ -219,7 +221,7 @@ function Bottommain() {
           </div>
         ))}
       </div>
-      <div className="w-full mx-auto container px-[50px]">
+      <div className="w-full mx-auto container md:px-[50px]">
         <Carousel showArrows={true} showStatus={false} showThumbs={false}>
           {changeImage.map((item) => (
             <div key={item.id}>
@@ -228,10 +230,12 @@ function Bottommain() {
           ))}
         </Carousel>
       </div>
-      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container">
-        <h1 className="text-[50px] font-medium">GROUNDBREAKING ENGINEERING</h1>
-        <div className="w-full flex flex-row justify-between text-gray-500 font-light">
-          <p className="pr-[50px]">
+      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container xl:px-[0] px-[30px]">
+        <h1 className="lg:text-[50px] md:text-[40px] sm:text-[30px] text-[20px] font-medium">
+          GROUNDBREAKING ENGINEERING
+        </h1>
+        <div className="w-full flex xl:flex-row flex-col xl:gap-0 gap-4  justify-between text-gray-500 font-light sm:text-[16px] text-[14px]">
+          <p className="xl:pr-[50px]">
             The heart of the CHIRON is its quad-turbocharged 8 l W16 engine.
             This unique masterpiece generates an incredible 1,500 hp and 1,600
             Nm of torque, with an almost linear power output between 2,000 and
@@ -253,10 +257,12 @@ function Bottommain() {
       <div className="w-full ">
         <img src="/images/engine.webp" alt="engine" />
       </div>
-      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container">
-        <h1 className="text-[22px] font-medium">CHIRON ACCESSORIES</h1>
-        <div className="w-full flex flex-row justify-between text-gray-500 font-light">
-          <p className="pr-[50px]">
+      <div className="w-full flex flex-col py-[80px] gap-6 mx-auto container xl:px-[0] px-[30px]">
+        <h1 className="ld:text-[22px] text-[20px] font-medium">
+          CHIRON ACCESSORIES
+        </h1>
+        <div className="w-full flex xl:flex-row flex-col xl:gap-0 gap-4 justify-between text-gray-500 font-light xl:text-[16px] text-[14px]">
+          <p className="xl:pr-[50px]">
             The Chiron family is renowned for including some of the fastest,
             most powerful, and exclusive production super sports cars in BUGATTI
             history. Such extraordinary vehicles deserve accessories that match

@@ -12,7 +12,7 @@ function NavBar() {
         <img src="/images/logo-bugatti.webp" alt="logo" />
       </div>
       <div className="text-gray-500 font-light cursor-pointer">
-        FIND A BUGATTI PARTNER
+        <span className="sm:block hidden">FIND A BUGATTI PARTNER</span>
       </div>
     </div>
   );
