@@ -7,7 +7,7 @@ import styles from "../styles/Home.module.css";
 
 const IndexPage: NextPage = () => {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>bugatti chiron</title>
         <link rel="icon" href="/favicon.ico" />
